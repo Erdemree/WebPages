@@ -271,3 +271,25 @@
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
+	
+    .map-filters {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .map-filter-btn {
+      padding: 0.4rem 1.1rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      transition: all 0.25s;
+    }
+
+    .map-filter-btn.edu-active { background: #43e97b; border-color: #43e97b; color: #0a0a0f; }
+    .map-filter-btn.work-active { background: #6c63ff; border-color: #6c63ff; color: white; }
+    .map-filter-btn.life-active { background: #ff6584; border-color: #ff6584; color: white; }
