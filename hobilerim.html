@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emre Erdem — Hobilerim</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="css/style2.css"/>
+ 
+</head>
+<body>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+
+  <nav>
+    <a href="index.html" class="nav-logo">EE<span>.</span></a>
+    <ul>
+      <li><a href="index.html">Hakkımda</a></li>
+      <li><a href="hobilerim.html" class="active">Hobilerim</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <div class="page-tag">// İlgi Alanları</div>
+    <h1 class="page-title">Hobi<span>lerim</span></h1>
+    <p class="page-desc">
+      Hayatı sadece kod satırlarından ibaret görmüyorum. Spor, seyahat ve sürekli öğrenme benim için vazgeçilmez.
+    </p>
+  </div>
+
+  <div class="hobbies-section">
+    <div class="hobby-card" style="animation-delay:0.1s">
+      <span class="hobby-icon">⚽</span>
+      <div class="hobby-title">Futbol & Spor</div>
+      <p class="hobby-desc">Futbol, basketbol, tenis ve voleybol oynayıp izlemeyi seviyorum. Sporu hayatımın değişmez bir parçası olarak görüyorum.</p>
+    </div>
+    <div class="hobby-card" style="animation-delay:0.2s">
+      <span class="hobby-icon">💻</span>
+      <div class="hobby-title">Teknoloji Takibi</div>
+      <p class="hobby-desc">Yazılım dünyasındaki gelişmeleri yakından takip ediyorum. Yeni teknolojileri öğrenmek beni heyecanlandırıyor.</p>
+    </div>
+    <div class="hobby-card" style="animation-delay:0.3s">
+      <span class="hobby-icon">🌍</span>
+      <div class="hobby-title">Seyahat</div>
+      <p class="hobby-desc">Dünya turu yapmak hayatımdaki en büyük hedeflerden biri. Yeni kültürleri ve yerleri keşfetmek bana ilham veriyor.</p>
+    </div>
+    <div class="hobby-card" style="animation-delay:0.4s">
+      <span class="hobby-icon">📚</span>
+      <div class="hobby-title">Seminer & Kurslar</div>
+      <p class="hobby-desc">Kişisel gelişime büyük önem veriyorum. Faydalı seminerlere ve kurslara katılarak kendimi sürekli geliştiriyorum.</p>
+    </div>
+    <div class="hobby-card" style="animation-delay:0.5s">
+      <span class="hobby-icon">🚀</span>
+      <div class="hobby-title">Kişisel Gelişim</div>
+      <p class="hobby-desc">Kendimi sürekli geliştirmenin önemli olduğuna inanıyorum. Her gün bir önceki günden daha iyi olmaya çalışıyorum.</p>
+    </div>
+    <div class="hobby-card" style="animation-delay:0.6s">
+      <span class="hobby-icon">🛒</span>
+      <div class="hobby-title">E-Ticaret & Girişimcilik</div>
+      <p class="hobby-desc">Opencart ve web tabanlı e-ticaret sistemleri geliştirerek dijital ticaret alanında tecrübe kazanıyorum.</p>
+    </div>
+  </div>
+
+ 
+  <div class="map-section">
+    <div class="section-label">Dönüm Noktaları</div>
+    <h2 class="section-title">Önemli Yerlerim</h2>
+    <p class="section-sub">Doğum yerim Malatya'dan başlayan yolculuğum, şu an Ankara'da devam ediyor. Dünya turu hayalim ise devam ediyor...</p>
+    <div id="map"></div>
+    <div class="map-legend">
+      <div class="legend-item"><div class="legend-dot" style="background:#6c63ff"></div> Yaşadığım Yer</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#ff6584"></div> Doğum Yeri</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#43e97b"></div> Çalıştığım Yer</div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 Emre Erdem — Yazılım Mühendisi · Ankara, Türkiye
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/js2.js"></script>
+ 
+</body>
+</html>
